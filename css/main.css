@@ -1,0 +1,12 @@
+body {
+	background-image: url(../img/paperbg.gif);
+}
+.correct {
+	color:green;
+}
+.incorrect {
+	color:red;
+}
+h1.correct, h1.incorrect {
+	width:250px;
+}

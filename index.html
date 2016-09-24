@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Just a trivia game</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+	<!-- Wrap header, questions,and buttons to one container -->
+	<div class="container">
+	<!-- titling the page -->
+	<h1 class="title">Trivia quiz</h1>
+<form class="col-sm-7">
+		<div class="checkbox">
+			<h4 id="question0">Name the primary colors?</h4>
+			<input id="answer0" type="text" class="form-control">
+			  
+		</div>
+<!-- id="answer0" class="form-control" --> 
+		<div class="checkbox">
+		<h4 id="question1">Where did coffee originate from?</h4>
+		<input id="answer1" type="text" class="form-control">
+			</div>
+<!-- id="answer1" class="form-control" -->
+		<div class="form-group">
+			<h4 id="question2">Name the largest ocean?</h4>
+			  <input id="answer2" type="text" class="form-control">
+		</div>
+
+		<div class="form-group">
+			<h4 id="question3">Name the world's biggest island?</h4>
+			  <input id="answer3" type="text" class="form-control">
+		</div>
+
+		<div class="form-group">
+			<h4 id="question4">What does the term 'Piano' mean?</h4>
+			<input id="answer4" type="text" class="form-control">
+		</div>
+
+		<div class="radio">
+			<h4 id="question5">Name the seventh planet from the sun?</h4>
+			<input id="answer5" type="text" class="form-control">
+		</div>
+
+		<div class="form-group">
+			<h4 id="question6">Whis is the computer named after a fruit?</h4>
+			  <input id="answer6" type="text" class="form-control">
+		</div>
+
+		
+
+
+		<button type="button" onclick="testResults()" class="btn btn-primary btn-md">Lets see what you got!</button>
+	</div>
+</form>
+	<!-- Correct and Incorrect -->
+	<div class="col-sm-2 col-sm-offset-1">
+		<h1 class="correct">Correct: <span id="correct"></span></h1>
+		<h1 class="incorrect">Incorrect: <span id="incorrect"></span></h1>
+
+</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
